@@ -18,10 +18,7 @@ function App() {
         <Route path ="/portfolio" element={<Portfolio/>}/>
         <Route path ="/contact" element={<Contact/>}/>
       </Routes>
-      {/* Home - Elevator Pitch + Latest Project
-      About Me - Explain who I am
-      Portfolio - 
-      Contact - Include Linked In, Submission Form */}
+
     </div>
   );
 }
