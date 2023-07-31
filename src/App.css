@@ -9,3 +9,28 @@ border: solid;
     flex-direction: row;
     justify-content: space-around;
 }
+
+.conWrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#linkedin
+{
+    background-color: #0A66C2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#github
+{
+    background-color: grey;
+}
+
+.button
+{
+    color: white;
+    font-size: 1.1em;
+}
+
