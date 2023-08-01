@@ -4,21 +4,21 @@ import {Link} from 'react-router-dom';
 function NavBar() {
   return (
   <div>   
-        <div className='menuItems'>
-        <Link to="/">
-        <p>Home</p>
+        <div className='menuBar'>
+        <Link to="/" className='navItem'>
+        <h3>== Home ==</h3>
         </Link>
 
-        <Link to="/about">
-        <p>About Me</p>
+        <Link to="/about" className='navItem'>
+        <h3>== About ==</h3>
         </Link>
 
-        <Link to="/portfolio">
-        <p>Portfolio</p>
+        <Link to="/portfolio" className='navItem'>
+        <h3>== Portfolio ==</h3>
         </Link>
 
-        <Link to="/contact">
-        <p>Contact</p>
+        <Link to="/contact" className='navItem'>
+        <h3>== Contact ==</h3>
         </Link>        
 
       </div>
