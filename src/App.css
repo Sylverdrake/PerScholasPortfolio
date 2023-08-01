@@ -8,13 +8,30 @@ body
 {
 background-color: rgb(33, 30, 30);
 color: rgb(232, 224, 224);
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+overflow-x: hidden;
+}
+
+@keyframes slide
+{
+    from
+    {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to
+    {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .wrapper
 {
     display: flex;
     justify-content: center;
+    animation: slide .8s;
+
 }
 
 .box
@@ -29,6 +46,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
 }
+
+.content
+{
+    text-align: center;
+    line-height: 2em;
+}
+
 
 /* 
 ===================
@@ -58,11 +82,29 @@ Home Page
 =================== 
 */
 
+.linkItem
+{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+#skills
+{
+    text-decoration: underline;
+}
+
 /* 
 ===================
 About Page
 =================== 
 */
+
+#resume
+{
+    color: inherit;
+    font-family: inherit;
+}
 
 /* 
 ===================
