@@ -8,21 +8,49 @@ body
 {
 background-color: rgb(33, 30, 30);
 color: rgb(232, 224, 224);
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.App {
-border: solid;
-
-}
-
-.menuItems
+.wrapper
 {
-    border: solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    width: 50%;
+    height: 91vh;
+}
+
+.header
+{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+/* 
+===================
+NAVBAR
+=================== 
+*/
+
+.menuBar
+{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+
+.navItem
+{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: .9em;
+}
+
 
 /* 
 ===================
@@ -48,17 +76,6 @@ Portfolio Page
 Contact Page
 =================== 
 */
-.conWrapper
-{
-    display: flex;
-    justify-content: center;
-}
-
-.conBox
-{
-    width: 50%;
-    height: 91vh;
-}
 
 #linkedin, #github
 {
