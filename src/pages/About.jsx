@@ -2,8 +2,11 @@ import React from 'react'
 
 function About() {
 return (
-<div className='aboutWrapper'>
-    <div className='main'>Who I am and where I am from</div>
+<div className='wrapper'>
+    <div className='box'>
+    <div className='header'><h1>About me!</h1></div>
+
+    </div>
 </div>
 )
 }

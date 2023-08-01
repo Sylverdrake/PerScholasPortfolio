@@ -2,8 +2,10 @@ import React from 'react'
 
 function Portfolio() {
 return (
-<div className='portfolioWrapper'>
-
+<div className='wrapper'>
+    <div className="box">
+        <div className='header'><h1>Portfolio</h1></div>
+    </div>
 </div>
 )
 }

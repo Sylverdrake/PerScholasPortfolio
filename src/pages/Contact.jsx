@@ -3,8 +3,8 @@ import React from 'react'
 function Contact() {
 
 return (
-    <div className='conWrapper'>
-        <div className="conBox">
+    <div className='wrapper'>
+        <div className="box">
         <div className='header'><h1>Contact me!</h1></div>
 <h1>If you would like to contact me for a job opportunity or freelance work, you can email me directly at: 
     <br/><br/>cavitevitchdev@gmail.com</h1>
