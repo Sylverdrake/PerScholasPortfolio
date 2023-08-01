@@ -3,6 +3,9 @@ import React from 'react'
 function Home() {
 return (
     <div className='homeWrapper'>
+        <div className='logo'>
+            Logo Goes Here
+        </div>
         <div className='skillCarousel'>
             <div className='skill'>Skill 1</div>
             <div className='skill'>Skill 2</div>
