@@ -116,6 +116,7 @@ Portfolio Page
 {
     border: solid;
     display: flex;
+    justify-content: center;
 }
 
 .featured
