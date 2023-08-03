@@ -28,8 +28,8 @@ return (
                 <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasPracticeAPIMeteoWeather')}/>
                 <div className='fInfo'>
                     <p>{repo[19]?.description}</p>
-                    <p>Written in: {repo[19]?.language}</p>
                 </div>
+                <div className='tags'>Written in: {repo[19]?.language}</div>
             </div>        
             
             <div className='featured'>
@@ -37,8 +37,8 @@ return (
                 <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasReactGP')}/>
                 <div className='fInfo'>
                     <p>{repo[22]?.description}</p>
-                    <p>Written in: {repo[22]?.language}</p>
                 </div>
+                <div className='tags'>Written in: {repo[22]?.language}</div>
             </div>
     </div>
 
@@ -48,8 +48,8 @@ return (
                 <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasSpaceBattle')}/>
                 <div className='fInfo'>
                     <p>{repo[25]?.description}</p>
-                    <p>Written in: {repo[25]?.language}</p>
                 </div>
+                <div className='tags'>Written in: {repo[25]?.language}</div>
             </div>  
 
             <div className='featured'>
@@ -57,8 +57,8 @@ return (
                 <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasWebPageRPG')}/>
                 <div className='fInfo'>
                     <p>{repo[28]?.description}</p>
-                    <p>Written in: {repo[28]?.language}</p>
                 </div>
+                <div className='tags'>Written in: {repo[28]?.language}</div>
             </div>
     </div>
 </div>
