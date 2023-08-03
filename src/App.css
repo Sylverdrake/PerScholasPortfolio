@@ -112,6 +112,23 @@ Portfolio Page
 =================== 
 */
 
+.portfolio
+{
+    border: solid;
+    display: flex;
+}
+
+.featured
+{
+    border: solid red;
+}
+
+.fImg
+{
+    border: solid green;
+    height: 175px;
+    width: 300px;
+}
 
 /* 
 ===================
