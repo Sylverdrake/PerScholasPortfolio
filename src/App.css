@@ -122,13 +122,34 @@ Portfolio Page
 {
     border: solid;
     width: 40%;
-    margin: 1em
+    margin: 1em;
+}
+
+.fTitle
+{
+    /* border: solid; */
 }
 
 .fImg
 {
     height: 175px;
     width: 300px;
+    cursor: pointer;
+}
+
+.fInfo
+{
+    border: solid;
+    height: 25%;
+    font-size: .9em;
+}
+
+.tags
+{
+    font-size: .7em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 /* 
