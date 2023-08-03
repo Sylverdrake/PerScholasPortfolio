@@ -114,19 +114,19 @@ Portfolio Page
 
 .portfolio
 {
-    border: solid;
     display: flex;
     justify-content: center;
 }
 
 .featured
 {
-    border: solid red;
+    border: solid;
+    width: 40%;
+    margin: 1em
 }
 
 .fImg
 {
-    border: solid green;
     height: 175px;
     width: 300px;
 }
