@@ -19,13 +19,20 @@ useEffect(() => {getRepo()}, [])
             console.error('Cannot get repos', err)
         }
     }
-    console.log(repo[0])
 return (
-    <div>
-        <div>
+    <div className='portfolio'>
+                <div className='featured'>
+            Test: {repo[19]?.full_name}
+        </div>        
+        <div className='featured'>
             Test: {repo[22]?.full_name}
+        </div>        
+        <div className='featured'>
+            Test: {repo[25]?.full_name}
+        </div>        
+        <div className='featured'>
+            Test: {repo[28]?.full_name}
         </div>
-
     </div>
 )
 }
