@@ -23,20 +23,20 @@ return (
 <div>
     <div className='portfolio'>
             <div className='featured'>
-                <p className='fTitle'>{repo[19]?.name}</p>
-
-                <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasPracticeAPIMeteoWeather')}/>
+                    <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[19]?.html_url}`)}/>
                 <div className='fInfo'>
-                    <p>{repo[19]?.description}</p>
+                    <h3>Prototype Weather App</h3>
+                    <hr/>
+                    {repo[19]?.description}
+                    <hr/>
+                    <div className='tags'>Written in: {repo[19]?.language}, React</div>
                 </div>
-                <div className='tags'>Written in: {repo[19]?.language}</div>
             </div>        
             
             <div className='featured'>
-                <p className='fTitle'>{repo[22]?.name}</p>
-                <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasReactGP')}/>
+                <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[22]?.html_url}`)}/>
                 <div className='fInfo'>
-                    <p>{repo[22]?.description}</p>
+
                 </div>
                 <div className='tags'>Written in: {repo[22]?.language}</div>
             </div>
@@ -44,19 +44,18 @@ return (
 
     <div className='portfolio'>
             <div className='featured'>
-                <p className='fTitle'>{repo[25]?.name}</p>
-                <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasSpaceBattle')}/>
+                        <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[25]?.html_url}`)}/>
                 <div className='fInfo'>
-                    <p>{repo[25]?.description}</p>
+
                 </div>
+
                 <div className='tags'>Written in: {repo[25]?.language}</div>
             </div>  
 
             <div className='featured'>
-                <p className='fTitle'>{repo[28]?.name}</p>
-                <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open('https://github.com/Sylverdrake/PerScholasWebPageRPG')}/>
+                <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[28]?.html_url}`)}/>
                 <div className='fInfo'>
-                    <p>{repo[28]?.description}</p>
+
                 </div>
                 <div className='tags'>Written in: {repo[28]?.language}</div>
             </div>
