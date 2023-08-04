@@ -1,10 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import logo from './logo.png'
 function Home() {
 return (
     <div className='wrapper'>
         <div className='box'>
+            <div className='logoArt'><img className='logo'src={logo} alt=''/></div>
             <div className='header'><h1>Carl Codes 402 You!</h1></div>
             <h1> - Web Development<br/>
             - Full Stack<br/>
