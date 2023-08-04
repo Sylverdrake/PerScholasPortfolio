@@ -27,7 +27,7 @@ return (
                 <div className='fInfo'>
                     <h3>Prototype Weather App</h3>
                     <hr/>
-                    {repo[19]?.description}
+                    <p>{repo[19]?.description}</p>
                     <hr/>
                     <div className='tags'>Written in: {repo[19]?.language}, React</div>
                 </div>
@@ -36,9 +36,12 @@ return (
             <div className='featured'>
                 <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[22]?.html_url}`)}/>
                 <div className='fInfo'>
-
+                    <h3>Atmocast</h3>
+                    <hr/>
+                    <p>{repo[22]?.description}</p>
+                    <hr/>
+                    <div className='tags'>Written in: {repo[22]?.language}, React</div>
                 </div>
-                <div className='tags'>Written in: {repo[22]?.language}</div>
             </div>
     </div>
 
@@ -46,18 +49,23 @@ return (
             <div className='featured'>
                         <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[25]?.html_url}`)}/>
                 <div className='fInfo'>
-
+                    <h3>Super Space Battle</h3>
+                    <hr/>
+                    <p>{repo[25]?.description}</p>
+                    <hr/>
+                    <div className='tags'>Written in: {repo[25]?.language}</div>
                 </div>
-
-                <div className='tags'>Written in: {repo[25]?.language}</div>
             </div>  
 
             <div className='featured'>
                 <img className='fImg' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Fdetail%2F233-2332677_image-500580-placeholder-transparent.png&f=1&nofb=1&ipt=bf2da49be302c2eb1c0e157402b7672822220d71558f50d70dcaeb867cd71ad0&ipo=images' alt='' onClick={() => window.open(`${repo[28]?.html_url}`)}/>
                 <div className='fInfo'>
-
+                    <h3>First Fantasy</h3>
+                    <hr/>
+                    <p>{repo[28]?.description}</p><br/>
+                    <hr/>
+                    <div className='tags'>Written in: {repo[28]?.language}</div>
                 </div>
-                <div className='tags'>Written in: {repo[28]?.language}</div>
             </div>
     </div>
 </div>
