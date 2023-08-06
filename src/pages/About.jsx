@@ -6,7 +6,7 @@ function About() {
     const file = () =>
     {
         FileSaver.saveAs(
-            process.env.PUBLIC_URL + "/resource/file.anyType", ""
+            process.env.PUBLIC_URL + "/resource/resume.pdf", "resume.pdf"
         )
     }
 
@@ -14,7 +14,7 @@ return (
 <div className='wrapper'>
     <div className='box'>
     <div className='header'><h1>About me!</h1></div>
-    <h3>Download (not working yet): <button className='button' id='resume' onClick={file}><h3>My CV.pdf</h3></button></h3>
+    <h3>Download: <button className='button' id='resume' onClick={file}><h3>My Resume.pdf</h3></button></h3>
                         <div className='content'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
