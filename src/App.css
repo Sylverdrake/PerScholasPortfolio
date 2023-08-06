@@ -53,6 +53,11 @@ overflow-x: hidden;
     line-height: 2em;
 }
 
+.hidden
+{
+    display: none;
+}
+
 
 /* 
 ===================
