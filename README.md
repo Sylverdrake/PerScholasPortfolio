@@ -6,15 +6,15 @@ If I had to do this project over, I would spend some time creating a filter proj
 Technologies Used
 -----------------
 
-React.js
-Filesaver
-Axios
+React.js <br/>
+Filesaver <br/>
+Axios <br/>
 React Router Dom
 
 Hooks Used
 -----------------
-useEffect
-useState
+useEffect <br/>
+useState 
 
 APIs Used
 -----------------
